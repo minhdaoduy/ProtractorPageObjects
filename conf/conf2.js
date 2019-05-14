@@ -11,15 +11,15 @@ exports.config = {
    seleniumAddress: 'http://localhost:4444/wd/hub',
 
 
-    specs: ['../util/Checkboxes.js'],
+    specs: ['../util/ConnectDB_postgress.js'],
 
-    suites: {
-        smoke: ['PageOjects/TestMachers.js'],
-        regression: ['JasmineBasics.js'],
-        functional: ['Banking.js'],
-        all: ['CalculatorTest3.js'],
-        selected: ['spec.js','FirstTest.js'],
-    },
+    // suites: {
+    //     smoke: ['PageOjects/TestMachers.js'],
+    //     regression: ['JasmineBasics.js'],
+    //     functional: ['Banking.js'],
+    //     all: ['CalculatorTest3.js'],
+    //     selected: ['spec.js','FirstTest.js'],
+    // },
 
       multiCapabilities: [
      // {
