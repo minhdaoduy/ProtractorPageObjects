@@ -2,7 +2,7 @@ var SelectWrapper = require("../util/select-wrapper.js");
 var mySelect = new SelectWrapper(by.id("userSelect"));
 var CurrencySelect = new SelectWrapper(by.id("currency"));
 var locator = require("../util/customlocators.js");
-var OR = require('../json/OR.json');
+var OR = require('../Datadriven/json/OR.json');
 var until = protractor.ExpectedConditions;
 
 var AddCustomerDetail = function () {

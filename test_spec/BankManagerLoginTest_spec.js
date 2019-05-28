@@ -1,5 +1,5 @@
 var base = require('../pages/BasePage.js');
-var OR = require('../json/OR.json')
+var OR = require('../Datadriven/json/OR.json')
 describe("BankManager Login Test",function () {
 
     var home_page = require('../pages/HomePage');

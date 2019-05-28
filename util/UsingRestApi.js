@@ -21,6 +21,7 @@ describe('Using rest api', function () {
         var weather = await new YahooWeather();
         let result = await weather.getCityWeather();
         await console.log(result);
+
         //To see the text typed in the TODO field. Not Mandatory
         browser.sleep(5000);
     });

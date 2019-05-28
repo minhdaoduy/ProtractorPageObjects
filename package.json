@@ -2,8 +2,8 @@
   "name": "protractor-fw-01",
   "description": "Automation Protractor Framework @Kiet S Nguyen",
   "repository": {
-    "type": "bitbucket",
-    "url": "https://kigodnguyen@bitbucket.org/tma_ti/protractor_fw_01.git"
+    "type": "github",
+    "url": "https://github.com/minhdaoduy/Protractor_practice.git"
   },
   "license": "UNLICENSED",
   "dependencies": {
@@ -11,10 +11,15 @@
     "asynckit": "^0.4.0",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
+    "circular-json": "^0.5.9",
+    "dateformat": "^3.0.3",
+    "dom-parse": "^1.2.1",
     "exceljs": "^1.6.0",
+    "got": "^9.6.0",
     "jasmine-data-provider": "^2.2.0",
     "log4js": "^3.0.5",
-    "log4js-protractor-appender": "^1.1.2",
+    "log4js-protractor-appender": "^1.1.2",de
+    "mongodb": "^3.2.6",
     "mysql": "^2.16.0",
     "pg": "^7.8.0",
     "protractor": "^5.4.0",
@@ -26,6 +31,7 @@
     "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
+    "ag-grid-testing": "0.0.2",
     "protractor-beautiful-reporter": "^1.2.4"
   }
 }
